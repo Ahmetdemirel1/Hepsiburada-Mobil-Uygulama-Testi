@@ -122,10 +122,10 @@ public class BasePageUtil {
     }
 
 
-    public String getProductPrice(By productPrice){
+    /*public String getProductPrice(By productPrice){
         String price = driver.findElement(productPrice).getText();
         return price;
-    }
+    }*/
 
     public void paymentOptions(By paymentOptionsXpath){
         WebDriverWait wait = new WebDriverWait(driver,20);

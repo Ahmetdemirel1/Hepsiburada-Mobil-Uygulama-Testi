@@ -23,7 +23,7 @@ public class BaseTest {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 5X API 28");
         capabilities.setCapability("udid","emulator-5554");
         capabilities.setCapability("platformVersion", "Null");
-        capabilities.setCapability("automationName", "uiautomator2");
+            capabilities.setCapability("automationName", "uiautomator2");
         capabilities.setCapability("appPackage","com.pozitron.hepsiburada");
         capabilities.setCapability("appActivity", "com.hepsiburada.ui.startup.SplashActivity");
 

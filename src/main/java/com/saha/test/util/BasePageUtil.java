@@ -99,10 +99,7 @@ public class BasePageUtil {
         int swipeEndHeight = (height * 1) / 100;
         int swipeStartHeight = (width );
 
-
         driver.swipe(swipeStartWidth,swipeStartHeight,swipeStartWidth,10,1000);
-
-
     }
 
     public void clickProduct(By productXpath){

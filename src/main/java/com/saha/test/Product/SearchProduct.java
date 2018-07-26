@@ -23,7 +23,7 @@ public class SearchProduct extends BasePageUtil implements Constants {
         searchBoxClickAndSendKey(searchBoxId,searchKey);
 
         pressSearch();
-
+        // version kontrol icin yorum satiri
         //clickSearchProduct(productXpath);
 
         sleep(2);

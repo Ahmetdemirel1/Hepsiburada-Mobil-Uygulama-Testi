@@ -24,6 +24,7 @@ public class SearchProduct extends BasePageUtil implements Constants {
 
         pressSearch();
         // version kontrol icin yorum satiri
+        //ikinci yorum satiri
         //clickSearchProduct(productXpath);
 
         sleep(2);
